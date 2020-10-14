@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BrowserTest">
+    <test name="AdditionalTest">
+        <classes>
+            <class name="com.way2automation.test.CalculatorTest">
+                <methods>
+                    <include name="testAddOperatorWithValidData" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="DivisionTest">
+        <classes>
+            <class name="com.way2automation.test.CalculatorTest">
+                <methods>
+                    <include name="testDivOperatorWithValidData" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="ModuleTest">
+        <classes>
+            <class name="com.way2automation.test.CalculatorTest">
+                <methods>
+                    <include name="testModOperatorWithValidData" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="MultiplicationTest">
+        <classes>
+            <class name="com.way2automation.test.CalculatorTest">
+                <methods>
+                    <include name="testMultOperatorWithValidData" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="SubtractionTest">
+        <classes>
+            <class name="com.way2automation.test.CalculatorTest">
+                <methods>
+                    <include name="testSubOperatorWithValidData" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="HistoryTest">
+        <classes>
+            <class name="com.way2automation.test.CalculatorTest">
+                <methods>
+                    <include name="verifyThatHistoryTimeIsDisplayedCorrect" />
+                    <include name="verifyThatHistoryExpressionIsDisplayedCorrect" />
+                    <include name="verifyThatHistoryResultIsDisplayedCorrect" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
