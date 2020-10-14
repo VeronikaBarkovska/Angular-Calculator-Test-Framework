@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BrowserTest">
+    <test name="AdditionalTest">
+        <classes>
+            <class name="com.way2automation.test.CalculatorTest">
+                <methods>
+                    <include name="testAddOperatorWithInvalidData" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="DivisionTest">
+        <classes>
+            <class name="com.way2automation.test.CalculatorTest">
+                <methods>
+                    <include name="testDivOperatorWithInvalidData" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="ModuleTest">
+        <classes>
+            <class name="com.way2automation.test.CalculatorTest">
+                <methods>
+                    <include name="testModOperatorWithInvalidData" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="MultiplicationTest">
+        <classes>
+            <class name="com.way2automation.test.CalculatorTest">
+                <methods>
+                    <include name="testMultOperatorWithInvalidData" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="SubtractionTest">
+        <classes>
+            <class name="com.way2automation.test.CalculatorTest">
+                <methods>
+                    <include name="testSubOperatorWithInvalidData" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
